@@ -10,6 +10,6 @@ public class LoginController {
 	
 	@RequestMapping("toLogin")
 	public String toLogin(){
-		return "login";
+		return "login/login";
 	}
 }
